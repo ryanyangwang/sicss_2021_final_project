@@ -12,11 +12,11 @@ library("WDI")
 
 links<-df
 
-#get GDP 
+#get GDP per capita
 gdp = WDI(indicator='NY.GDP.PCAP.CD',start=2019, end=2019)
-head(gdp)
 
-###nodes and edgelist seem inconsistent 
-#not run nodes<-subset(gdp, iso2c %in% links$user_loc)
+#get internet per thousand people
+internet = WDI(indicator='IT.NET.USER.P3',start=2019, end=2019)
+
 
 
