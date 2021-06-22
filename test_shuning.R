@@ -1,4 +1,7 @@
-###The file contains codes getting country-level features###
+###        The file contains codes getting country-level features            ###
+
+#The dataframe includes iso2c ID for countries, which could be linked to FB SCI#
+
 
 library("WDI")
 
