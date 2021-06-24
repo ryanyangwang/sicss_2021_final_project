@@ -646,9 +646,6 @@
     <edge source="n0" target="n7">
       <data key="e_scaled_sci">893</data>
     </edge>
-    <edge source="n0" target="n0">
-      <data key="e_scaled_sci">11193009</data>
-    </edge>
     <edge source="n0" target="n101">
       <data key="e_scaled_sci">1167</data>
     </edge>
@@ -669,9 +666,6 @@
     </edge>
     <edge source="n1" target="n152">
       <data key="e_scaled_sci">1380</data>
-    </edge>
-    <edge source="n1" target="n1">
-      <data key="e_scaled_sci">5319117</data>
     </edge>
     <edge source="n1" target="n74">
       <data key="e_scaled_sci">22672</data>
@@ -750,9 +744,6 @@
     </edge>
     <edge source="n2" target="n62">
       <data key="e_scaled_sci">13490</data>
-    </edge>
-    <edge source="n2" target="n2">
-      <data key="e_scaled_sci">1353784</data>
     </edge>
     <edge source="n2" target="n86">
       <data key="e_scaled_sci">3116</data>
@@ -834,9 +825,6 @@
     </edge>
     <edge source="n3" target="n5">
       <data key="e_scaled_sci">599</data>
-    </edge>
-    <edge source="n3" target="n3">
-      <data key="e_scaled_sci">48677887</data>
     </edge>
     <edge source="n3" target="n121">
       <data key="e_scaled_sci">452</data>
@@ -1261,9 +1249,6 @@
     <edge source="n4" target="n146">
       <data key="e_scaled_sci">500</data>
     </edge>
-    <edge source="n4" target="n4">
-      <data key="e_scaled_sci">38971754</data>
-    </edge>
     <edge source="n4" target="n155">
       <data key="e_scaled_sci">1133</data>
     </edge>
@@ -1390,9 +1375,6 @@
     <edge source="n6" target="n142">
       <data key="e_scaled_sci">527</data>
     </edge>
-    <edge source="n6" target="n6">
-      <data key="e_scaled_sci">8643109</data>
-    </edge>
     <edge source="n6" target="n117">
       <data key="e_scaled_sci">1112</data>
     </edge>
@@ -1416,9 +1398,6 @@
     </edge>
     <edge source="n7" target="n179">
       <data key="e_scaled_sci">399</data>
-    </edge>
-    <edge source="n7" target="n7">
-      <data key="e_scaled_sci">1338981</data>
     </edge>
     <edge source="n7" target="n152">
       <data key="e_scaled_sci">305</data>
@@ -1488,9 +1467,6 @@
     </edge>
     <edge source="n8" target="n33">
       <data key="e_scaled_sci">1617</data>
-    </edge>
-    <edge source="n8" target="n8">
-      <data key="e_scaled_sci">3251521</data>
     </edge>
     <edge source="n8" target="n105">
       <data key="e_scaled_sci">4064</data>
@@ -2353,9 +2329,6 @@
     <edge source="n12" target="n122">
       <data key="e_scaled_sci">6337</data>
     </edge>
-    <edge source="n12" target="n12">
-      <data key="e_scaled_sci">7098330</data>
-    </edge>
     <edge source="n12" target="n74">
       <data key="e_scaled_sci">40652</data>
     </edge>
@@ -2448,9 +2421,6 @@
     </edge>
     <edge source="n13" target="n69">
       <data key="e_scaled_sci">307</data>
-    </edge>
-    <edge source="n13" target="n13">
-      <data key="e_scaled_sci">1150336</data>
     </edge>
     <edge source="n13" target="n101">
       <data key="e_scaled_sci">228</data>
@@ -2805,9 +2775,6 @@
     </edge>
     <edge source="n14" target="n33">
       <data key="e_scaled_sci">336</data>
-    </edge>
-    <edge source="n14" target="n14">
-      <data key="e_scaled_sci">54966518</data>
     </edge>
     <edge source="n14" target="n93">
       <data key="e_scaled_sci">2438</data>
@@ -3172,9 +3139,6 @@
     <edge source="n17" target="n49">
       <data key="e_scaled_sci">1042</data>
     </edge>
-    <edge source="n17" target="n17">
-      <data key="e_scaled_sci">15940519</data>
-    </edge>
     <edge source="n17" target="n128">
       <data key="e_scaled_sci">450</data>
     </edge>
@@ -3267,9 +3231,6 @@
     </edge>
     <edge source="n18" target="n54">
       <data key="e_scaled_sci">435</data>
-    </edge>
-    <edge source="n18" target="n18">
-      <data key="e_scaled_sci">106679507</data>
     </edge>
     <edge source="n18" target="n146">
       <data key="e_scaled_sci">387</data>
@@ -3408,9 +3369,6 @@
     </edge>
     <edge source="n19" target="n146">
       <data key="e_scaled_sci">315</data>
-    </edge>
-    <edge source="n19" target="n19">
-      <data key="e_scaled_sci">572296</data>
     </edge>
     <edge source="n19" target="n43">
       <data key="e_scaled_sci">115</data>
@@ -4066,9 +4024,6 @@
     <edge source="n23" target="n161">
       <data key="e_scaled_sci">810</data>
     </edge>
-    <edge source="n23" target="n23">
-      <data key="e_scaled_sci">686527925</data>
-    </edge>
     <edge source="n23" target="n74">
       <data key="e_scaled_sci">497</data>
     </edge>
@@ -4488,9 +4443,6 @@
     </edge>
     <edge source="n26" target="n116">
       <data key="e_scaled_sci">788</data>
-    </edge>
-    <edge source="n26" target="n26">
-      <data key="e_scaled_sci">224573722</data>
     </edge>
     <edge source="n26" target="n33">
       <data key="e_scaled_sci">251</data>
@@ -5022,9 +4974,6 @@
     </edge>
     <edge source="n27" target="n152">
       <data key="e_scaled_sci">8564</data>
-    </edge>
-    <edge source="n27" target="n27">
-      <data key="e_scaled_sci">21101907</data>
     </edge>
     <edge source="n27" target="n142">
       <data key="e_scaled_sci">1407</data>
@@ -5596,9 +5545,6 @@
     <edge source="n31" target="n77">
       <data key="e_scaled_sci">1654</data>
     </edge>
-    <edge source="n31" target="n31">
-      <data key="e_scaled_sci">894967393</data>
-    </edge>
     <edge source="n31" target="n155">
       <data key="e_scaled_sci">1174</data>
     </edge>
@@ -6109,9 +6055,6 @@
     <edge source="n32" target="n7">
       <data key="e_scaled_sci">308</data>
     </edge>
-    <edge source="n32" target="n32">
-      <data key="e_scaled_sci">2283798</data>
-    </edge>
     <edge source="n32" target="n112">
       <data key="e_scaled_sci">261</data>
     </edge>
@@ -6279,9 +6222,6 @@
     </edge>
     <edge source="n33" target="n120">
       <data key="e_scaled_sci">2428</data>
-    </edge>
-    <edge source="n33" target="n33">
-      <data key="e_scaled_sci">10447563</data>
     </edge>
     <edge source="n33" target="n140">
       <data key="e_scaled_sci">315</data>
@@ -6841,9 +6781,6 @@
     <edge source="n35" target="n40">
       <data key="e_scaled_sci">696</data>
     </edge>
-    <edge source="n35" target="n35">
-      <data key="e_scaled_sci">231791814</data>
-    </edge>
     <edge source="n35" target="n80">
       <data key="e_scaled_sci">179</data>
     </edge>
@@ -7068,9 +7005,6 @@
     </edge>
     <edge source="n36" target="n169">
       <data key="e_scaled_sci">502</data>
-    </edge>
-    <edge source="n36" target="n36">
-      <data key="e_scaled_sci">2646333</data>
     </edge>
     <edge source="n36" target="n47">
       <data key="e_scaled_sci">1716</data>
@@ -7432,9 +7366,6 @@
     <edge source="n37" target="n149">
       <data key="e_scaled_sci">944</data>
     </edge>
-    <edge source="n37" target="n37">
-      <data key="e_scaled_sci">15906772</data>
-    </edge>
     <edge source="n37" target="n18">
       <data key="e_scaled_sci">948</data>
     </edge>
@@ -7452,9 +7383,6 @@
     </edge>
     <edge source="n38" target="n144">
       <data key="e_scaled_sci">358</data>
-    </edge>
-    <edge source="n38" target="n38">
-      <data key="e_scaled_sci">23880456</data>
     </edge>
     <edge source="n38" target="n92">
       <data key="e_scaled_sci">3732</data>
@@ -7939,9 +7867,6 @@
     <edge source="n39" target="n152">
       <data key="e_scaled_sci">1463</data>
     </edge>
-    <edge source="n39" target="n39">
-      <data key="e_scaled_sci">207583285</data>
-    </edge>
     <edge source="n39" target="n106">
       <data key="e_scaled_sci">370</data>
     </edge>
@@ -8254,9 +8179,6 @@
     <edge source="n42" target="n43">
       <data key="e_scaled_sci">756</data>
     </edge>
-    <edge source="n42" target="n42">
-      <data key="e_scaled_sci">22444762</data>
-    </edge>
     <edge source="n42" target="n7">
       <data key="e_scaled_sci">2648</data>
     </edge>
@@ -8295,9 +8217,6 @@
     </edge>
     <edge source="n43" target="n153">
       <data key="e_scaled_sci">379</data>
-    </edge>
-    <edge source="n43" target="n43">
-      <data key="e_scaled_sci">16054119</data>
     </edge>
     <edge source="n43" target="n120">
       <data key="e_scaled_sci">3836</data>
@@ -8355,9 +8274,6 @@
     </edge>
     <edge source="n44" target="n43">
       <data key="e_scaled_sci">274</data>
-    </edge>
-    <edge source="n44" target="n44">
-      <data key="e_scaled_sci">82187822</data>
     </edge>
     <edge source="n44" target="n70">
       <data key="e_scaled_sci">5720</data>
@@ -8649,9 +8565,6 @@
     </edge>
     <edge source="n45" target="n168">
       <data key="e_scaled_sci">679</data>
-    </edge>
-    <edge source="n45" target="n45">
-      <data key="e_scaled_sci">53525172</data>
     </edge>
     <edge source="n45" target="n127">
       <data key="e_scaled_sci">1469</data>
@@ -9037,9 +8950,6 @@
     <edge source="n46" target="n20">
       <data key="e_scaled_sci">1616</data>
     </edge>
-    <edge source="n46" target="n46">
-      <data key="e_scaled_sci">109975100</data>
-    </edge>
     <edge source="n46" target="n172">
       <data key="e_scaled_sci">13622</data>
     </edge>
@@ -9240,9 +9150,6 @@
     </edge>
     <edge source="n47" target="n7">
       <data key="e_scaled_sci">5718</data>
-    </edge>
-    <edge source="n47" target="n47">
-      <data key="e_scaled_sci">5476424</data>
     </edge>
     <edge source="n47" target="n19">
       <data key="e_scaled_sci">524</data>
@@ -9769,9 +9676,6 @@
     <edge source="n48" target="n138">
       <data key="e_scaled_sci">485</data>
     </edge>
-    <edge source="n48" target="n48">
-      <data key="e_scaled_sci">64513079</data>
-    </edge>
     <edge source="n48" target="n176">
       <data key="e_scaled_sci">3425</data>
     </edge>
@@ -10261,14 +10165,8 @@
     <edge source="n49" target="n182">
       <data key="e_scaled_sci">355</data>
     </edge>
-    <edge source="n50" target="n50">
-      <data key="e_scaled_sci">12148205</data>
-    </edge>
     <edge source="n49" target="n50">
       <data key="e_scaled_sci">38972</data>
-    </edge>
-    <edge source="n49" target="n49">
-      <data key="e_scaled_sci">50032161</data>
     </edge>
     <edge source="n49" target="n53">
       <data key="e_scaled_sci">434</data>
@@ -10720,9 +10618,6 @@
     <edge source="n53" target="n137">
       <data key="e_scaled_sci">310</data>
     </edge>
-    <edge source="n53" target="n53">
-      <data key="e_scaled_sci">19068481</data>
-    </edge>
     <edge source="n53" target="n164">
       <data key="e_scaled_sci">297</data>
     </edge>
@@ -10903,9 +10798,6 @@
     <edge source="n54" target="n155">
       <data key="e_scaled_sci">2450</data>
     </edge>
-    <edge source="n54" target="n54">
-      <data key="e_scaled_sci">689508</data>
-    </edge>
     <edge source="n54" target="n43">
       <data key="e_scaled_sci">201</data>
     </edge>
@@ -10974,9 +10866,6 @@
     </edge>
     <edge source="n55" target="n19">
       <data key="e_scaled_sci">8469</data>
-    </edge>
-    <edge source="n55" target="n55">
-      <data key="e_scaled_sci">47978348</data>
     </edge>
     <edge source="n55" target="n69">
       <data key="e_scaled_sci">531</data>
@@ -11485,9 +11374,6 @@
     <edge source="n56" target="n68">
       <data key="e_scaled_sci">27409</data>
     </edge>
-    <edge source="n56" target="n56">
-      <data key="e_scaled_sci">187347660</data>
-    </edge>
     <edge source="n56" target="n182">
       <data key="e_scaled_sci">2151</data>
     </edge>
@@ -11814,9 +11700,6 @@
     </edge>
     <edge source="n57" target="n20">
       <data key="e_scaled_sci">195</data>
-    </edge>
-    <edge source="n57" target="n57">
-      <data key="e_scaled_sci">35433508</data>
     </edge>
     <edge source="n57" target="n5">
       <data key="e_scaled_sci">694</data>
@@ -12411,9 +12294,6 @@
     </edge>
     <edge source="n58" target="n10">
       <data key="e_scaled_sci">1333</data>
-    </edge>
-    <edge source="n58" target="n58">
-      <data key="e_scaled_sci">31980121</data>
     </edge>
     <edge source="n58" target="n0">
       <data key="e_scaled_sci">267</data>
@@ -13015,9 +12895,6 @@
     <edge source="n62" target="n1">
       <data key="e_scaled_sci">1217</data>
     </edge>
-    <edge source="n62" target="n62">
-      <data key="e_scaled_sci">256694698</data>
-    </edge>
     <edge source="n62" target="n86">
       <data key="e_scaled_sci">634</data>
     </edge>
@@ -13140,9 +13017,6 @@
     </edge>
     <edge source="n63" target="n136">
       <data key="e_scaled_sci">404</data>
-    </edge>
-    <edge source="n63" target="n63">
-      <data key="e_scaled_sci">4473134</data>
     </edge>
     <edge source="n63" target="n117">
       <data key="e_scaled_sci">417</data>
@@ -13414,9 +13288,6 @@
     <edge source="n64" target="n75">
       <data key="e_scaled_sci">1253</data>
     </edge>
-    <edge source="n64" target="n64">
-      <data key="e_scaled_sci">40768681</data>
-    </edge>
     <edge source="n64" target="n81">
       <data key="e_scaled_sci">1583</data>
     </edge>
@@ -13660,9 +13531,6 @@
     <edge source="n20" target="n142">
       <data key="e_scaled_sci">8281</data>
     </edge>
-    <edge source="n20" target="n20">
-      <data key="e_scaled_sci">19683186</data>
-    </edge>
     <edge source="n20" target="n27">
       <data key="e_scaled_sci">908</data>
     </edge>
@@ -13789,14 +13657,8 @@
     <edge source="n66" target="n89">
       <data key="e_scaled_sci">11053</data>
     </edge>
-    <edge source="n65" target="n65">
-      <data key="e_scaled_sci">162201914</data>
-    </edge>
     <edge source="n66" target="n65">
       <data key="e_scaled_sci">6471</data>
-    </edge>
-    <edge source="n66" target="n66">
-      <data key="e_scaled_sci">580267868</data>
     </edge>
     <edge source="n65" target="n114">
       <data key="e_scaled_sci">5620</data>
@@ -14332,9 +14194,6 @@
     <edge source="n67" target="n43">
       <data key="e_scaled_sci">446</data>
     </edge>
-    <edge source="n67" target="n67">
-      <data key="e_scaled_sci">768078</data>
-    </edge>
     <edge source="n67" target="n123">
       <data key="e_scaled_sci">112893</data>
     </edge>
@@ -14647,9 +14506,6 @@
     <edge source="n68" target="n54">
       <data key="e_scaled_sci">1360</data>
     </edge>
-    <edge source="n68" target="n68">
-      <data key="e_scaled_sci">628575</data>
-    </edge>
     <edge source="n68" target="n43">
       <data key="e_scaled_sci">7456</data>
     </edge>
@@ -14802,9 +14658,6 @@
     </edge>
     <edge source="n69" target="n105">
       <data key="e_scaled_sci">1684</data>
-    </edge>
-    <edge source="n69" target="n69">
-      <data key="e_scaled_sci">1509303</data>
     </edge>
     <edge source="n69" target="n139">
       <data key="e_scaled_sci">418</data>
@@ -15124,9 +14977,6 @@
     <edge source="n70" target="n181">
       <data key="e_scaled_sci">2834</data>
     </edge>
-    <edge source="n70" target="n70">
-      <data key="e_scaled_sci">875476</data>
-    </edge>
     <edge source="n70" target="n43">
       <data key="e_scaled_sci">714</data>
     </edge>
@@ -15255,9 +15105,6 @@
     </edge>
     <edge source="n71" target="n155">
       <data key="e_scaled_sci">5523</data>
-    </edge>
-    <edge source="n71" target="n71">
-      <data key="e_scaled_sci">185111808</data>
     </edge>
     <edge source="n71" target="n181">
       <data key="e_scaled_sci">20541</data>
@@ -15838,14 +15685,8 @@
     <edge source="n21" target="n159">
       <data key="e_scaled_sci">6825</data>
     </edge>
-    <edge source="n22" target="n22">
-      <data key="e_scaled_sci">904241</data>
-    </edge>
     <edge source="n21" target="n22">
       <data key="e_scaled_sci">1606</data>
-    </edge>
-    <edge source="n21" target="n21">
-      <data key="e_scaled_sci">35656603</data>
     </edge>
     <edge source="n21" target="n36">
       <data key="e_scaled_sci">1034</data>
@@ -16000,9 +15841,6 @@
     <edge source="n28" target="n73">
       <data key="e_scaled_sci">35466</data>
     </edge>
-    <edge source="n28" target="n28">
-      <data key="e_scaled_sci">74710225</data>
-    </edge>
     <edge source="n28" target="n180">
       <data key="e_scaled_sci">38389</data>
     </edge>
@@ -16155,9 +15993,6 @@
     </edge>
     <edge source="n72" target="n27">
       <data key="e_scaled_sci">2467</data>
-    </edge>
-    <edge source="n72" target="n72">
-      <data key="e_scaled_sci">825735</data>
     </edge>
     <edge source="n72" target="n81">
       <data key="e_scaled_sci">5397</data>
@@ -16411,9 +16246,6 @@
     <edge source="n73" target="n166">
       <data key="e_scaled_sci">15848</data>
     </edge>
-    <edge source="n73" target="n73">
-      <data key="e_scaled_sci">14195177</data>
-    </edge>
     <edge source="n73" target="n110">
       <data key="e_scaled_sci">5504</data>
     </edge>
@@ -16461,9 +16293,6 @@
     </edge>
     <edge source="n74" target="n120">
       <data key="e_scaled_sci">2519</data>
-    </edge>
-    <edge source="n74" target="n74">
-      <data key="e_scaled_sci">16798680</data>
     </edge>
     <edge source="n74" target="n153">
       <data key="e_scaled_sci">754</data>
@@ -16641,9 +16470,6 @@
     </edge>
     <edge source="n75" target="n154">
       <data key="e_scaled_sci">83309</data>
-    </edge>
-    <edge source="n75" target="n75">
-      <data key="e_scaled_sci">11444103</data>
     </edge>
     <edge source="n75" target="n12">
       <data key="e_scaled_sci">16369</data>
@@ -17128,9 +16954,6 @@
     <edge source="n76" target="n91">
       <data key="e_scaled_sci">1007</data>
     </edge>
-    <edge source="n76" target="n76">
-      <data key="e_scaled_sci">23897002</data>
-    </edge>
     <edge source="n76" target="n40">
       <data key="e_scaled_sci">487</data>
     </edge>
@@ -17295,9 +17118,6 @@
     </edge>
     <edge source="n77" target="n18">
       <data key="e_scaled_sci">1554</data>
-    </edge>
-    <edge source="n77" target="n77">
-      <data key="e_scaled_sci">14396465</data>
     </edge>
     <edge source="n77" target="n65">
       <data key="e_scaled_sci">2412</data>
@@ -17877,9 +17697,6 @@
     </edge>
     <edge source="n78" target="n183">
       <data key="e_scaled_sci">952</data>
-    </edge>
-    <edge source="n78" target="n78">
-      <data key="e_scaled_sci">17838344</data>
     </edge>
     <edge source="n78" target="n166">
       <data key="e_scaled_sci">3375</data>
@@ -18562,9 +18379,6 @@
     <edge source="n79" target="n76">
       <data key="e_scaled_sci">398196</data>
     </edge>
-    <edge source="n79" target="n79">
-      <data key="e_scaled_sci">5024147</data>
-    </edge>
     <edge source="n79" target="n47">
       <data key="e_scaled_sci">440</data>
     </edge>
@@ -18816,9 +18630,6 @@
     </edge>
     <edge source="n80" target="n7">
       <data key="e_scaled_sci">1964</data>
-    </edge>
-    <edge source="n80" target="n80">
-      <data key="e_scaled_sci">2023722</data>
     </edge>
     <edge source="n80" target="n100">
       <data key="e_scaled_sci">310</data>
@@ -19120,9 +18931,6 @@
     <edge source="n81" target="n150">
       <data key="e_scaled_sci">789</data>
     </edge>
-    <edge source="n81" target="n81">
-      <data key="e_scaled_sci">361627451</data>
-    </edge>
     <edge source="n81" target="n86">
       <data key="e_scaled_sci">1057</data>
     </edge>
@@ -19239,9 +19047,6 @@
     </edge>
     <edge source="n82" target="n140">
       <data key="e_scaled_sci">426</data>
-    </edge>
-    <edge source="n82" target="n82">
-      <data key="e_scaled_sci">11442853</data>
     </edge>
     <edge source="n82" target="n141">
       <data key="e_scaled_sci">16338</data>
@@ -20104,9 +19909,6 @@
     <edge source="n83" target="n60">
       <data key="e_scaled_sci">12430</data>
     </edge>
-    <edge source="n83" target="n83">
-      <data key="e_scaled_sci">370712564</data>
-    </edge>
     <edge source="n83" target="n166">
       <data key="e_scaled_sci">997</data>
     </edge>
@@ -20199,9 +20001,6 @@
     </edge>
     <edge source="n84" target="n140">
       <data key="e_scaled_sci">726</data>
-    </edge>
-    <edge source="n84" target="n84">
-      <data key="e_scaled_sci">26579555</data>
     </edge>
     <edge source="n84" target="n165">
       <data key="e_scaled_sci">358</data>
@@ -20491,9 +20290,6 @@
     <edge source="n5" target="n153">
       <data key="e_scaled_sci">636</data>
     </edge>
-    <edge source="n5" target="n5">
-      <data key="e_scaled_sci">119760037</data>
-    </edge>
     <edge source="n9" target="n2">
       <data key="e_scaled_sci">44543</data>
     </edge>
@@ -20515,14 +20311,8 @@
     <edge source="n9" target="n24">
       <data key="e_scaled_sci">19507</data>
     </edge>
-    <edge source="n9" target="n9">
-      <data key="e_scaled_sci">112406717</data>
-    </edge>
     <edge source="n9" target="n10">
       <data key="e_scaled_sci">3272</data>
-    </edge>
-    <edge source="n10" target="n10">
-      <data key="e_scaled_sci">9012380</data>
     </edge>
     <edge source="n9" target="n4">
       <data key="e_scaled_sci">4177</data>
@@ -20764,9 +20554,6 @@
     <edge source="n85" target="n105">
       <data key="e_scaled_sci">103</data>
     </edge>
-    <edge source="n85" target="n85">
-      <data key="e_scaled_sci">18775532</data>
-    </edge>
     <edge source="n85" target="n72">
       <data key="e_scaled_sci">43840</data>
     </edge>
@@ -20880,9 +20667,6 @@
     </edge>
     <edge source="n86" target="n1">
       <data key="e_scaled_sci">34143</data>
-    </edge>
-    <edge source="n86" target="n86">
-      <data key="e_scaled_sci">12076993</data>
     </edge>
     <edge source="n86" target="n117">
       <data key="e_scaled_sci">847</data>
@@ -21006,9 +20790,6 @@
     </edge>
     <edge source="n87" target="n71">
       <data key="e_scaled_sci">2866</data>
-    </edge>
-    <edge source="n87" target="n87">
-      <data key="e_scaled_sci">1680363</data>
     </edge>
     <edge source="n87" target="n126">
       <data key="e_scaled_sci">710</data>
@@ -21366,9 +21147,6 @@
     </edge>
     <edge source="n88" target="n18">
       <data key="e_scaled_sci">376</data>
-    </edge>
-    <edge source="n88" target="n88">
-      <data key="e_scaled_sci">1740032</data>
     </edge>
     <edge source="n88" target="n170">
       <data key="e_scaled_sci">4652</data>
@@ -21808,9 +21586,6 @@
     <edge source="n89" target="n166">
       <data key="e_scaled_sci">7524</data>
     </edge>
-    <edge source="n89" target="n89">
-      <data key="e_scaled_sci">1180589</data>
-    </edge>
     <edge source="n89" target="n101">
       <data key="e_scaled_sci">2710</data>
     </edge>
@@ -22008,9 +21783,6 @@
     </edge>
     <edge source="n90" target="n57">
       <data key="e_scaled_sci">570</data>
-    </edge>
-    <edge source="n90" target="n90">
-      <data key="e_scaled_sci">15122932</data>
     </edge>
     <edge source="n90" target="n5">
       <data key="e_scaled_sci">507</data>
@@ -22435,9 +22207,6 @@
     <edge source="n91" target="n2">
       <data key="e_scaled_sci">18086</data>
     </edge>
-    <edge source="n91" target="n91">
-      <data key="e_scaled_sci">151374599</data>
-    </edge>
     <edge source="n91" target="n41">
       <data key="e_scaled_sci">1626</data>
     </edge>
@@ -22459,14 +22228,8 @@
     <edge source="n91" target="n10">
       <data key="e_scaled_sci">16013</data>
     </edge>
-    <edge source="n16" target="n16">
-      <data key="e_scaled_sci">10366854</data>
-    </edge>
     <edge source="n15" target="n16">
       <data key="e_scaled_sci">8715</data>
-    </edge>
-    <edge source="n15" target="n15">
-      <data key="e_scaled_sci">10672433</data>
     </edge>
     <edge source="n15" target="n121">
       <data key="e_scaled_sci">589</data>
@@ -22999,9 +22762,6 @@
     <edge source="n93" target="n70">
       <data key="e_scaled_sci">11445</data>
     </edge>
-    <edge source="n93" target="n93">
-      <data key="e_scaled_sci">7031701</data>
-    </edge>
     <edge source="n93" target="n43">
       <data key="e_scaled_sci">2365</data>
     </edge>
@@ -23238,9 +22998,6 @@
     </edge>
     <edge source="n94" target="n50">
       <data key="e_scaled_sci">674</data>
-    </edge>
-    <edge source="n94" target="n94">
-      <data key="e_scaled_sci">4440484</data>
     </edge>
     <edge source="n94" target="n142">
       <data key="e_scaled_sci">656</data>
@@ -23629,9 +23386,6 @@
     <edge source="n95" target="n142">
       <data key="e_scaled_sci">1544</data>
     </edge>
-    <edge source="n95" target="n95">
-      <data key="e_scaled_sci">2269559</data>
-    </edge>
     <edge source="n95" target="n136">
       <data key="e_scaled_sci">19464</data>
     </edge>
@@ -23953,9 +23707,6 @@
     <edge source="n96" target="n137">
       <data key="e_scaled_sci">2600</data>
     </edge>
-    <edge source="n96" target="n96">
-      <data key="e_scaled_sci">8444602</data>
-    </edge>
     <edge source="n96" target="n50">
       <data key="e_scaled_sci">619</data>
     </edge>
@@ -24165,9 +23916,6 @@
     </edge>
     <edge source="n97" target="n152">
       <data key="e_scaled_sci">361</data>
-    </edge>
-    <edge source="n97" target="n97">
-      <data key="e_scaled_sci">82146729</data>
     </edge>
     <edge source="n97" target="n43">
       <data key="e_scaled_sci">250</data>
@@ -24379,9 +24127,6 @@
     <edge source="n98" target="n150">
       <data key="e_scaled_sci">483</data>
     </edge>
-    <edge source="n98" target="n98">
-      <data key="e_scaled_sci">17477173</data>
-    </edge>
     <edge source="n98" target="n105">
       <data key="e_scaled_sci">170</data>
     </edge>
@@ -24528,9 +24273,6 @@
     </edge>
     <edge source="n99" target="n89">
       <data key="e_scaled_sci">7891</data>
-    </edge>
-    <edge source="n99" target="n99">
-      <data key="e_scaled_sci">15495470</data>
     </edge>
     <edge source="n99" target="n18">
       <data key="e_scaled_sci">473</data>
@@ -24736,9 +24478,6 @@
     <edge source="n100" target="n146">
       <data key="e_scaled_sci">213</data>
     </edge>
-    <edge source="n100" target="n100">
-      <data key="e_scaled_sci">4667613</data>
-    </edge>
     <edge source="n100" target="n155">
       <data key="e_scaled_sci">3307</data>
     </edge>
@@ -24894,9 +24633,6 @@
     </edge>
     <edge source="n101" target="n5">
       <data key="e_scaled_sci">541</data>
-    </edge>
-    <edge source="n101" target="n101">
-      <data key="e_scaled_sci">14800305</data>
     </edge>
     <edge source="n101" target="n179">
       <data key="e_scaled_sci">2841</data>
@@ -25269,9 +25005,6 @@
     </edge>
     <edge source="n102" target="n66">
       <data key="e_scaled_sci">4427</data>
-    </edge>
-    <edge source="n102" target="n102">
-      <data key="e_scaled_sci">249673</data>
     </edge>
     <edge source="n102" target="n61">
       <data key="e_scaled_sci">3064</data>
@@ -26092,9 +25825,6 @@
     <edge source="n103" target="n104">
       <data key="e_scaled_sci">4744</data>
     </edge>
-    <edge source="n103" target="n103">
-      <data key="e_scaled_sci">4569656</data>
-    </edge>
     <edge source="n103" target="n0">
       <data key="e_scaled_sci">654</data>
     </edge>
@@ -26505,9 +26235,6 @@
     </edge>
     <edge source="n104" target="n75">
       <data key="e_scaled_sci">7536</data>
-    </edge>
-    <edge source="n104" target="n104">
-      <data key="e_scaled_sci">1000000000</data>
     </edge>
     <edge source="n104" target="n41">
       <data key="e_scaled_sci">15692</data>
@@ -26992,9 +26719,6 @@
     <edge source="n105" target="n15">
       <data key="e_scaled_sci">1034</data>
     </edge>
-    <edge source="n105" target="n105">
-      <data key="e_scaled_sci">850026177</data>
-    </edge>
     <edge source="n105" target="n65">
       <data key="e_scaled_sci">50190</data>
     </edge>
@@ -27231,9 +26955,6 @@
     </edge>
     <edge source="n106" target="n120">
       <data key="e_scaled_sci">3648</data>
-    </edge>
-    <edge source="n106" target="n106">
-      <data key="e_scaled_sci">25019381</data>
     </edge>
     <edge source="n106" target="n74">
       <data key="e_scaled_sci">777</data>
@@ -27478,9 +27199,6 @@
     <edge source="n107" target="n7">
       <data key="e_scaled_sci">911</data>
     </edge>
-    <edge source="n107" target="n107">
-      <data key="e_scaled_sci">24595146</data>
-    </edge>
     <edge source="n107" target="n165">
       <data key="e_scaled_sci">177</data>
     </edge>
@@ -27639,9 +27357,6 @@
     </edge>
     <edge source="n108" target="n137">
       <data key="e_scaled_sci">9800</data>
-    </edge>
-    <edge source="n108" target="n108">
-      <data key="e_scaled_sci">125360309</data>
     </edge>
     <edge source="n108" target="n166">
       <data key="e_scaled_sci">1333</data>
@@ -27925,9 +27640,6 @@
     <edge source="n109" target="n94">
       <data key="e_scaled_sci">1421</data>
     </edge>
-    <edge source="n109" target="n109">
-      <data key="e_scaled_sci">40158754</data>
-    </edge>
     <edge source="n109" target="n72">
       <data key="e_scaled_sci">2845</data>
     </edge>
@@ -28153,9 +27865,6 @@
     <edge source="n110" target="n106">
       <data key="e_scaled_sci">31196</data>
     </edge>
-    <edge source="n110" target="n110">
-      <data key="e_scaled_sci">52490030</data>
-    </edge>
     <edge source="n110" target="n27">
       <data key="e_scaled_sci">3268</data>
     </edge>
@@ -28344,9 +28053,6 @@
     </edge>
     <edge source="n111" target="n152">
       <data key="e_scaled_sci">2826</data>
-    </edge>
-    <edge source="n111" target="n111">
-      <data key="e_scaled_sci">10221008</data>
     </edge>
     <edge source="n111" target="n162">
       <data key="e_scaled_sci">540817</data>
@@ -28936,9 +28642,6 @@
     <edge source="n112" target="n73">
       <data key="e_scaled_sci">797</data>
     </edge>
-    <edge source="n112" target="n112">
-      <data key="e_scaled_sci">22286766</data>
-    </edge>
     <edge source="n112" target="n81">
       <data key="e_scaled_sci">60893</data>
     </edge>
@@ -29089,9 +28792,6 @@
     <edge source="n113" target="n43">
       <data key="e_scaled_sci">142</data>
     </edge>
-    <edge source="n113" target="n113">
-      <data key="e_scaled_sci">6496953</data>
-    </edge>
     <edge source="n113" target="n152">
       <data key="e_scaled_sci">157</data>
     </edge>
@@ -29238,9 +28938,6 @@
     </edge>
     <edge source="n113" target="n0">
       <data key="e_scaled_sci">346</data>
-    </edge>
-    <edge source="n114" target="n114">
-      <data key="e_scaled_sci">171610334</data>
     </edge>
     <edge source="n114" target="n16">
       <data key="e_scaled_sci">769</data>
@@ -30115,9 +29812,6 @@
     <edge source="n116" target="n114">
       <data key="e_scaled_sci">1055</data>
     </edge>
-    <edge source="n116" target="n116">
-      <data key="e_scaled_sci">23383832</data>
-    </edge>
     <edge source="n116" target="n121">
       <data key="e_scaled_sci">1218</data>
     </edge>
@@ -30439,9 +30133,6 @@
     <edge source="n117" target="n74">
       <data key="e_scaled_sci">994</data>
     </edge>
-    <edge source="n117" target="n117">
-      <data key="e_scaled_sci">19006419</data>
-    </edge>
     <edge source="n118" target="n156">
       <data key="e_scaled_sci">1087</data>
     </edge>
@@ -30549,9 +30240,6 @@
     </edge>
     <edge source="n118" target="n183">
       <data key="e_scaled_sci">56734</data>
-    </edge>
-    <edge source="n118" target="n118">
-      <data key="e_scaled_sci">317873714</data>
     </edge>
     <edge source="n118" target="n124">
       <data key="e_scaled_sci">3823</data>
@@ -30925,14 +30613,8 @@
     <edge source="n119" target="n32">
       <data key="e_scaled_sci">2885</data>
     </edge>
-    <edge source="n119" target="n119">
-      <data key="e_scaled_sci">5704470</data>
-    </edge>
     <edge source="n119" target="n120">
       <data key="e_scaled_sci">4213</data>
-    </edge>
-    <edge source="n120" target="n120">
-      <data key="e_scaled_sci">1310732</data>
     </edge>
     <edge source="n119" target="n39">
       <data key="e_scaled_sci">22425</data>
@@ -31195,9 +30877,6 @@
     <edge source="n121" target="n146">
       <data key="e_scaled_sci">380</data>
     </edge>
-    <edge source="n121" target="n121">
-      <data key="e_scaled_sci">123204953</data>
-    </edge>
     <edge source="n121" target="n16">
       <data key="e_scaled_sci">599</data>
     </edge>
@@ -31396,9 +31075,6 @@
     <edge source="n122" target="n181">
       <data key="e_scaled_sci">73104</data>
     </edge>
-    <edge source="n122" target="n122">
-      <data key="e_scaled_sci">65551331</data>
-    </edge>
     <edge source="n122" target="n2">
       <data key="e_scaled_sci">6834</data>
     </edge>
@@ -31491,9 +31167,6 @@
     </edge>
     <edge source="n123" target="n43">
       <data key="e_scaled_sci">232</data>
-    </edge>
-    <edge source="n123" target="n123">
-      <data key="e_scaled_sci">8013049</data>
     </edge>
     <edge source="n123" target="n70">
       <data key="e_scaled_sci">1400</data>
@@ -31614,9 +31287,6 @@
     </edge>
     <edge source="n124" target="n120">
       <data key="e_scaled_sci">4959</data>
-    </edge>
-    <edge source="n124" target="n124">
-      <data key="e_scaled_sci">9135950</data>
     </edge>
     <edge source="n61" target="n139">
       <data key="e_scaled_sci">500</data>
@@ -31966,14 +31636,8 @@
     <edge source="n60" target="n172">
       <data key="e_scaled_sci">2151</data>
     </edge>
-    <edge source="n61" target="n61">
-      <data key="e_scaled_sci">1977645</data>
-    </edge>
     <edge source="n60" target="n61">
       <data key="e_scaled_sci">5322</data>
-    </edge>
-    <edge source="n60" target="n60">
-      <data key="e_scaled_sci">107661501</data>
     </edge>
     <edge source="n60" target="n80">
       <data key="e_scaled_sci">5831</data>
@@ -32052,9 +31716,6 @@
     </edge>
     <edge source="n24" target="n91">
       <data key="e_scaled_sci">1670</data>
-    </edge>
-    <edge source="n24" target="n24">
-      <data key="e_scaled_sci">9072763</data>
     </edge>
     <edge source="n24" target="n10">
       <data key="e_scaled_sci">1499</data>
@@ -32220,9 +31881,6 @@
     </edge>
     <edge source="n125" target="n172">
       <data key="e_scaled_sci">1292</data>
-    </edge>
-    <edge source="n125" target="n125">
-      <data key="e_scaled_sci">619939056</data>
     </edge>
     <edge source="n125" target="n70">
       <data key="e_scaled_sci">771</data>
@@ -32466,9 +32124,6 @@
     </edge>
     <edge source="n126" target="n39">
       <data key="e_scaled_sci">19759</data>
-    </edge>
-    <edge source="n126" target="n126">
-      <data key="e_scaled_sci">140705418</data>
     </edge>
     <edge source="n126" target="n170">
       <data key="e_scaled_sci">24449</data>
@@ -32764,9 +32419,6 @@
     <edge source="n127" target="n94">
       <data key="e_scaled_sci">1130</data>
     </edge>
-    <edge source="n127" target="n127">
-      <data key="e_scaled_sci">8932488</data>
-    </edge>
     <edge source="n127" target="n172">
       <data key="e_scaled_sci">1852</data>
     </edge>
@@ -32946,9 +32598,6 @@
     </edge>
     <edge source="n128" target="n169">
       <data key="e_scaled_sci">594</data>
-    </edge>
-    <edge source="n128" target="n128">
-      <data key="e_scaled_sci">676752</data>
     </edge>
     <edge source="n128" target="n143">
       <data key="e_scaled_sci">238</data>
@@ -33237,9 +32886,6 @@
     </edge>
     <edge source="n129" target="n89">
       <data key="e_scaled_sci">1568</data>
-    </edge>
-    <edge source="n129" target="n129">
-      <data key="e_scaled_sci">912840</data>
     </edge>
     <edge source="n129" target="n53">
       <data key="e_scaled_sci">1199</data>
@@ -33979,9 +33625,6 @@
     <edge source="n130" target="n58">
       <data key="e_scaled_sci">368</data>
     </edge>
-    <edge source="n130" target="n130">
-      <data key="e_scaled_sci">1207713</data>
-    </edge>
     <edge source="n130" target="n103">
       <data key="e_scaled_sci">3709</data>
     </edge>
@@ -34152,9 +33795,6 @@
     </edge>
     <edge source="n11" target="n57">
       <data key="e_scaled_sci">203255</data>
-    </edge>
-    <edge source="n11" target="n11">
-      <data key="e_scaled_sci">2366205</data>
     </edge>
     <edge source="n11" target="n35">
       <data key="e_scaled_sci">6797</data>
@@ -34446,9 +34086,6 @@
     </edge>
     <edge source="n34" target="n22">
       <data key="e_scaled_sci">5470</data>
-    </edge>
-    <edge source="n34" target="n34">
-      <data key="e_scaled_sci">1235495</data>
     </edge>
     <edge source="n34" target="n132">
       <data key="e_scaled_sci">2538</data>
@@ -34776,9 +34413,6 @@
     </edge>
     <edge source="n131" target="n143">
       <data key="e_scaled_sci">24946</data>
-    </edge>
-    <edge source="n131" target="n131">
-      <data key="e_scaled_sci">4458470</data>
     </edge>
     <edge source="n131" target="n22">
       <data key="e_scaled_sci">5238</data>
@@ -35214,9 +34848,6 @@
     </edge>
     <edge source="n132" target="n73">
       <data key="e_scaled_sci">3333</data>
-    </edge>
-    <edge source="n132" target="n132">
-      <data key="e_scaled_sci">112966746</data>
     </edge>
     <edge source="n132" target="n175">
       <data key="e_scaled_sci">282</data>
@@ -35683,9 +35314,6 @@
     <edge source="n133" target="n27">
       <data key="e_scaled_sci">8724</data>
     </edge>
-    <edge source="n133" target="n133">
-      <data key="e_scaled_sci">21109727</data>
-    </edge>
     <edge source="n133" target="n72">
       <data key="e_scaled_sci">1997</data>
     </edge>
@@ -35964,9 +35592,6 @@
     </edge>
     <edge source="n134" target="n156">
       <data key="e_scaled_sci">34548</data>
-    </edge>
-    <edge source="n134" target="n134">
-      <data key="e_scaled_sci">151510244</data>
     </edge>
     <edge source="n134" target="n1">
       <data key="e_scaled_sci">17498</data>
@@ -36307,9 +35932,6 @@
     <edge source="n135" target="n106">
       <data key="e_scaled_sci">6109</data>
     </edge>
-    <edge source="n135" target="n135">
-      <data key="e_scaled_sci">184823800</data>
-    </edge>
     <edge source="n135" target="n63">
       <data key="e_scaled_sci">15355</data>
     </edge>
@@ -36423,9 +36045,6 @@
     </edge>
     <edge source="n136" target="n6">
       <data key="e_scaled_sci">1578</data>
-    </edge>
-    <edge source="n136" target="n136">
-      <data key="e_scaled_sci">7821622</data>
     </edge>
     <edge source="n136" target="n117">
       <data key="e_scaled_sci">26328</data>
@@ -36678,9 +36297,6 @@
     </edge>
     <edge source="n137" target="n4">
       <data key="e_scaled_sci">40924</data>
-    </edge>
-    <edge source="n137" target="n137">
-      <data key="e_scaled_sci">18341127</data>
     </edge>
     <edge source="n137" target="n182">
       <data key="e_scaled_sci">231</data>
@@ -37150,9 +36766,6 @@
     <edge source="n138" target="n92">
       <data key="e_scaled_sci">3804</data>
     </edge>
-    <edge source="n138" target="n138">
-      <data key="e_scaled_sci">898207</data>
-    </edge>
     <edge source="n138" target="n52">
       <data key="e_scaled_sci">1721</data>
     </edge>
@@ -37345,14 +36958,8 @@
     <edge source="n138" target="n103">
       <data key="e_scaled_sci">5204</data>
     </edge>
-    <edge source="n139" target="n139">
-      <data key="e_scaled_sci">160174</data>
-    </edge>
     <edge source="n139" target="n140">
       <data key="e_scaled_sci">248</data>
-    </edge>
-    <edge source="n140" target="n140">
-      <data key="e_scaled_sci">5720874</data>
     </edge>
     <edge source="n139" target="n114">
       <data key="e_scaled_sci">285</data>
@@ -37873,14 +37480,8 @@
     <edge source="n30" target="n179">
       <data key="e_scaled_sci">514</data>
     </edge>
-    <edge source="n29" target="n29">
-      <data key="e_scaled_sci">28556226</data>
-    </edge>
     <edge source="n29" target="n30">
       <data key="e_scaled_sci">449</data>
-    </edge>
-    <edge source="n30" target="n30">
-      <data key="e_scaled_sci">520356</data>
     </edge>
     <edge source="n29" target="n170">
       <data key="e_scaled_sci">1788</data>
@@ -38371,9 +37972,6 @@
     <edge source="n40" target="n1">
       <data key="e_scaled_sci">4784</data>
     </edge>
-    <edge source="n40" target="n40">
-      <data key="e_scaled_sci">8832502</data>
-    </edge>
     <edge source="n40" target="n71">
       <data key="e_scaled_sci">797</data>
     </edge>
@@ -38457,9 +38055,6 @@
     </edge>
     <edge source="n141" target="n89">
       <data key="e_scaled_sci">263</data>
-    </edge>
-    <edge source="n141" target="n141">
-      <data key="e_scaled_sci">60200659</data>
     </edge>
     <edge source="n141" target="n7">
       <data key="e_scaled_sci">1477</data>
@@ -38746,9 +38341,6 @@
     <edge source="n142" target="n43">
       <data key="e_scaled_sci">1388</data>
     </edge>
-    <edge source="n142" target="n142">
-      <data key="e_scaled_sci">2122094</data>
-    </edge>
     <edge source="n142" target="n74">
       <data key="e_scaled_sci">2671</data>
     </edge>
@@ -38820,9 +38412,6 @@
     </edge>
     <edge source="n143" target="n97">
       <data key="e_scaled_sci">1456</data>
-    </edge>
-    <edge source="n143" target="n143">
-      <data key="e_scaled_sci">1137660</data>
     </edge>
     <edge source="n143" target="n42">
       <data key="e_scaled_sci">2093</data>
@@ -38982,9 +38571,6 @@
     </edge>
     <edge source="n144" target="n54">
       <data key="e_scaled_sci">354</data>
-    </edge>
-    <edge source="n144" target="n144">
-      <data key="e_scaled_sci">10430981</data>
     </edge>
     <edge source="n144" target="n119">
       <data key="e_scaled_sci">10679</data>
@@ -39604,9 +39190,6 @@
     <edge source="n145" target="n8">
       <data key="e_scaled_sci">23574</data>
     </edge>
-    <edge source="n145" target="n145">
-      <data key="e_scaled_sci">93701340</data>
-    </edge>
     <edge source="n145" target="n7">
       <data key="e_scaled_sci">3395</data>
     </edge>
@@ -39825,9 +39408,6 @@
     </edge>
     <edge source="n145" target="n0">
       <data key="e_scaled_sci">2896</data>
-    </edge>
-    <edge source="n146" target="n146">
-      <data key="e_scaled_sci">27507970</data>
     </edge>
     <edge source="n146" target="n43">
       <data key="e_scaled_sci">802</data>
@@ -40212,9 +39792,6 @@
     </edge>
     <edge source="n147" target="n110">
       <data key="e_scaled_sci">1113131</data>
-    </edge>
-    <edge source="n147" target="n147">
-      <data key="e_scaled_sci">15758517</data>
     </edge>
     <edge source="n147" target="n17">
       <data key="e_scaled_sci">1141</data>
@@ -40660,9 +40237,6 @@
     <edge source="n150" target="n42">
       <data key="e_scaled_sci">1366</data>
     </edge>
-    <edge source="n150" target="n150">
-      <data key="e_scaled_sci">2564841</data>
-    </edge>
     <edge source="n150" target="n12">
       <data key="e_scaled_sci">4159</data>
     </edge>
@@ -41107,9 +40681,6 @@
     <edge source="n151" target="n117">
       <data key="e_scaled_sci">956</data>
     </edge>
-    <edge source="n151" target="n151">
-      <data key="e_scaled_sci">23272159</data>
-    </edge>
     <edge source="n151" target="n118">
       <data key="e_scaled_sci">24059</data>
     </edge>
@@ -41143,14 +40714,8 @@
     <edge source="n152" target="n74">
       <data key="e_scaled_sci">704</data>
     </edge>
-    <edge source="n152" target="n152">
-      <data key="e_scaled_sci">2052292</data>
-    </edge>
     <edge source="n152" target="n117">
       <data key="e_scaled_sci">1545</data>
-    </edge>
-    <edge source="n153" target="n153">
-      <data key="e_scaled_sci">963913399</data>
     </edge>
     <edge source="n153" target="n120">
       <data key="e_scaled_sci">6521</data>
@@ -41271,9 +40836,6 @@
     </edge>
     <edge source="n154" target="n120">
       <data key="e_scaled_sci">160620</data>
-    </edge>
-    <edge source="n154" target="n154">
-      <data key="e_scaled_sci">2575097</data>
     </edge>
     <edge source="n154" target="n97">
       <data key="e_scaled_sci">39797</data>
@@ -41428,9 +40990,6 @@
     <edge source="n154" target="n0">
       <data key="e_scaled_sci">1097</data>
     </edge>
-    <edge source="n155" target="n155">
-      <data key="e_scaled_sci">464056410</data>
-    </edge>
     <edge source="n155" target="n43">
       <data key="e_scaled_sci">339</data>
     </edge>
@@ -41527,9 +41086,6 @@
     <edge source="n156" target="n1">
       <data key="e_scaled_sci">16694</data>
     </edge>
-    <edge source="n156" target="n156">
-      <data key="e_scaled_sci">292582302</data>
-    </edge>
     <edge source="n156" target="n86">
       <data key="e_scaled_sci">425</data>
     </edge>
@@ -41565,9 +41121,6 @@
     </edge>
     <edge source="n157" target="n121">
       <data key="e_scaled_sci">9011</data>
-    </edge>
-    <edge source="n157" target="n157">
-      <data key="e_scaled_sci">9178357</data>
     </edge>
     <edge source="n157" target="n20">
       <data key="e_scaled_sci">526</data>
@@ -42214,9 +41767,6 @@
     <edge source="n115" target="n58">
       <data key="e_scaled_sci">352</data>
     </edge>
-    <edge source="n115" target="n115">
-      <data key="e_scaled_sci">819300</data>
-    </edge>
     <edge source="n115" target="n130">
       <data key="e_scaled_sci">1173</data>
     </edge>
@@ -42465,9 +42015,6 @@
     </edge>
     <edge source="n159" target="n127">
       <data key="e_scaled_sci">4134</data>
-    </edge>
-    <edge source="n159" target="n159">
-      <data key="e_scaled_sci">62376274</data>
     </edge>
     <edge source="n159" target="n7">
       <data key="e_scaled_sci">36204</data>
@@ -43009,9 +42556,6 @@
     <edge source="n160" target="n73">
       <data key="e_scaled_sci">1185</data>
     </edge>
-    <edge source="n160" target="n160">
-      <data key="e_scaled_sci">1858336</data>
-    </edge>
     <edge source="n160" target="n34">
       <data key="e_scaled_sci">605</data>
     </edge>
@@ -43188,9 +42732,6 @@
     </edge>
     <edge source="n161" target="n4">
       <data key="e_scaled_sci">7861</data>
-    </edge>
-    <edge source="n161" target="n161">
-      <data key="e_scaled_sci">103784261</data>
     </edge>
     <edge source="n161" target="n126">
       <data key="e_scaled_sci">1032</data>
@@ -43569,9 +43110,6 @@
     </edge>
     <edge source="n162" target="n20">
       <data key="e_scaled_sci">6302</data>
-    </edge>
-    <edge source="n162" target="n162">
-      <data key="e_scaled_sci">355777659</data>
     </edge>
     <edge source="n162" target="n142">
       <data key="e_scaled_sci">49126</data>
@@ -43963,9 +43501,6 @@
     <edge source="n163" target="n106">
       <data key="e_scaled_sci">1395</data>
     </edge>
-    <edge source="n163" target="n163">
-      <data key="e_scaled_sci">3296358</data>
-    </edge>
     <edge source="n163" target="n175">
       <data key="e_scaled_sci">826</data>
     </edge>
@@ -44266,9 +43801,6 @@
     <edge source="n164" target="n2">
       <data key="e_scaled_sci">118225</data>
     </edge>
-    <edge source="n164" target="n164">
-      <data key="e_scaled_sci">422548100</data>
-    </edge>
     <edge source="n164" target="n110">
       <data key="e_scaled_sci">7614</data>
     </edge>
@@ -44358,9 +43890,6 @@
     </edge>
     <edge source="n165" target="n54">
       <data key="e_scaled_sci">131</data>
-    </edge>
-    <edge source="n165" target="n165">
-      <data key="e_scaled_sci">8187067</data>
     </edge>
     <edge source="n165" target="n65">
       <data key="e_scaled_sci">461</data>
@@ -44668,9 +44197,6 @@
     <edge source="n166" target="n156">
       <data key="e_scaled_sci">7115</data>
     </edge>
-    <edge source="n166" target="n166">
-      <data key="e_scaled_sci">63795461</data>
-    </edge>
     <edge source="n166" target="n97">
       <data key="e_scaled_sci">7528</data>
     </edge>
@@ -44802,9 +44328,6 @@
     </edge>
     <edge source="n25" target="n32">
       <data key="e_scaled_sci">2237</data>
-    </edge>
-    <edge source="n25" target="n25">
-      <data key="e_scaled_sci">5703036</data>
     </edge>
     <edge source="n25" target="n13">
       <data key="e_scaled_sci">221</data>
@@ -67102,9 +66625,6 @@
     <edge source="n51" target="n39">
       <data key="e_scaled_sci">22212</data>
     </edge>
-    <edge source="n51" target="n51">
-      <data key="e_scaled_sci">35475437</data>
-    </edge>
     <edge source="n51" target="n135">
       <data key="e_scaled_sci">11496</data>
     </edge>
@@ -67149,9 +66669,6 @@
     </edge>
     <edge source="n181" target="n155">
       <data key="e_scaled_sci">818</data>
-    </edge>
-    <edge source="n181" target="n181">
-      <data key="e_scaled_sci">86698316</data>
     </edge>
     <edge source="n181" target="n43">
       <data key="e_scaled_sci">253</data>
@@ -67243,9 +66760,6 @@
     <edge source="n183" target="n2">
       <data key="e_scaled_sci">3082</data>
     </edge>
-    <edge source="n183" target="n183">
-      <data key="e_scaled_sci">1718216</data>
-    </edge>
     <edge source="n183" target="n181">
       <data key="e_scaled_sci">657</data>
     </edge>
@@ -67320,9 +66834,6 @@
     </edge>
     <edge source="n52" target="n114">
       <data key="e_scaled_sci">4739</data>
-    </edge>
-    <edge source="n52" target="n52">
-      <data key="e_scaled_sci">8456581</data>
     </edge>
     <edge source="n52" target="n65">
       <data key="e_scaled_sci">781</data>
@@ -82474,9 +81985,6 @@
     <edge source="n148" target="n163">
       <data key="e_scaled_sci">3579</data>
     </edge>
-    <edge source="n148" target="n148">
-      <data key="e_scaled_sci">83216721</data>
-    </edge>
     <edge source="n148" target="n125">
       <data key="e_scaled_sci">1899</data>
     </edge>
@@ -83110,9 +82618,6 @@
     <edge source="n178" target="n151">
       <data key="e_scaled_sci">829</data>
     </edge>
-    <edge source="n178" target="n178">
-      <data key="e_scaled_sci">5556901</data>
-    </edge>
     <edge source="n178" target="n118">
       <data key="e_scaled_sci">2446</data>
     </edge>
@@ -83619,9 +83124,6 @@
     </edge>
     <edge source="n177" target="n151">
       <data key="e_scaled_sci">967</data>
-    </edge>
-    <edge source="n177" target="n177">
-      <data key="e_scaled_sci">20438854</data>
     </edge>
     <edge source="n177" target="n178">
       <data key="e_scaled_sci">1277</data>
@@ -93943,9 +93445,6 @@
     <edge source="n182" target="n44">
       <data key="e_scaled_sci">440</data>
     </edge>
-    <edge source="n182" target="n182">
-      <data key="e_scaled_sci">3447838</data>
-    </edge>
     <edge source="n182" target="n123">
       <data key="e_scaled_sci">457</data>
     </edge>
@@ -94090,9 +93589,6 @@
     <edge source="n179" target="n43">
       <data key="e_scaled_sci">227</data>
     </edge>
-    <edge source="n179" target="n179">
-      <data key="e_scaled_sci">325124192</data>
-    </edge>
     <edge source="n179" target="n152">
       <data key="e_scaled_sci">872</data>
     </edge>
@@ -94113,9 +93609,6 @@
     </edge>
     <edge source="n179" target="n124">
       <data key="e_scaled_sci">2457</data>
-    </edge>
-    <edge source="n180" target="n180">
-      <data key="e_scaled_sci">41421316</data>
     </edge>
     <edge source="n180" target="n5">
       <data key="e_scaled_sci">1822</data>
@@ -94510,9 +94003,6 @@
     <edge source="n175" target="n63">
       <data key="e_scaled_sci">1844</data>
     </edge>
-    <edge source="n175" target="n175">
-      <data key="e_scaled_sci">2571235</data>
-    </edge>
     <edge source="n175" target="n73">
       <data key="e_scaled_sci">703</data>
     </edge>
@@ -94560,9 +94050,6 @@
     </edge>
     <edge source="n169" target="n89">
       <data key="e_scaled_sci">1870</data>
-    </edge>
-    <edge source="n169" target="n169">
-      <data key="e_scaled_sci">958636528</data>
     </edge>
     <edge source="n169" target="n54">
       <data key="e_scaled_sci">982</data>
@@ -94872,9 +94359,6 @@
     </edge>
     <edge source="n149" target="n137">
       <data key="e_scaled_sci">1881</data>
-    </edge>
-    <edge source="n149" target="n149">
-      <data key="e_scaled_sci">185639652</data>
     </edge>
     <edge source="n149" target="n2">
       <data key="e_scaled_sci">6251</data>
@@ -97690,9 +97174,6 @@
     <edge source="n171" target="n173">
       <data key="e_scaled_sci">947</data>
     </edge>
-    <edge source="n171" target="n171">
-      <data key="e_scaled_sci">781974735</data>
-    </edge>
     <edge source="n171" target="n14">
       <data key="e_scaled_sci">3022</data>
     </edge>
@@ -98797,9 +98278,6 @@
     <edge source="n173" target="n72">
       <data key="e_scaled_sci">1437</data>
     </edge>
-    <edge source="n173" target="n173">
-      <data key="e_scaled_sci">161967787</data>
-    </edge>
     <edge source="n173" target="n97">
       <data key="e_scaled_sci">639</data>
     </edge>
@@ -99036,9 +98514,6 @@
     </edge>
     <edge source="n167" target="n154">
       <data key="e_scaled_sci">64774</data>
-    </edge>
-    <edge source="n167" target="n167">
-      <data key="e_scaled_sci">4643757</data>
     </edge>
     <edge source="n167" target="n42">
       <data key="e_scaled_sci">1600</data>
@@ -99919,9 +99394,6 @@
     <edge source="n176" target="n45">
       <data key="e_scaled_sci">504</data>
     </edge>
-    <edge source="n176" target="n176">
-      <data key="e_scaled_sci">174880277</data>
-    </edge>
     <edge source="n176" target="n94">
       <data key="e_scaled_sci">417</data>
     </edge>
@@ -100687,9 +100159,6 @@
     <edge source="n59" target="n135">
       <data key="e_scaled_sci">4686</data>
     </edge>
-    <edge source="n59" target="n59">
-      <data key="e_scaled_sci">253399999</data>
-    </edge>
     <edge source="n59" target="n117">
       <data key="e_scaled_sci">1301</data>
     </edge>
@@ -100755,9 +100224,6 @@
     </edge>
     <edge source="n170" target="n120">
       <data key="e_scaled_sci">4904</data>
-    </edge>
-    <edge source="n170" target="n170">
-      <data key="e_scaled_sci">10200713</data>
     </edge>
     <edge source="n170" target="n5">
       <data key="e_scaled_sci">1784</data>
@@ -100911,9 +100377,6 @@
     </edge>
     <edge source="n172" target="n74">
       <data key="e_scaled_sci">2991</data>
-    </edge>
-    <edge source="n172" target="n172">
-      <data key="e_scaled_sci">5556995</data>
     </edge>
     <edge source="n172" target="n142">
       <data key="e_scaled_sci">1406</data>
@@ -101076,9 +100539,6 @@
     </edge>
     <edge source="n168" target="n150">
       <data key="e_scaled_sci">20431</data>
-    </edge>
-    <edge source="n168" target="n168">
-      <data key="e_scaled_sci">93568420</data>
     </edge>
     <edge source="n168" target="n172">
       <data key="e_scaled_sci">848</data>
@@ -101278,9 +100738,6 @@
     <edge source="n92" target="n143">
       <data key="e_scaled_sci">11371</data>
     </edge>
-    <edge source="n92" target="n92">
-      <data key="e_scaled_sci">55114745</data>
-    </edge>
     <edge source="n92" target="n81">
       <data key="e_scaled_sci">10615</data>
     </edge>
@@ -101400,9 +100857,6 @@
     </edge>
     <edge source="n158" target="n86">
       <data key="e_scaled_sci">411</data>
-    </edge>
-    <edge source="n158" target="n158">
-      <data key="e_scaled_sci">331676447</data>
     </edge>
     <edge source="n158" target="n122">
       <data key="e_scaled_sci">2056</data>
@@ -101995,9 +101449,6 @@
     <edge source="n174" target="n113">
       <data key="e_scaled_sci">739</data>
     </edge>
-    <edge source="n174" target="n174">
-      <data key="e_scaled_sci">78595664</data>
-    </edge>
     <edge source="n174" target="n173">
       <data key="e_scaled_sci">24174</data>
     </edge>
@@ -102087,9 +101538,6 @@
     </edge>
     <edge source="n41" target="n54">
       <data key="e_scaled_sci">1533</data>
-    </edge>
-    <edge source="n41" target="n41">
-      <data key="e_scaled_sci">319542358</data>
     </edge>
     <edge source="n41" target="n153">
       <data key="e_scaled_sci">740747</data>

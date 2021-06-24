@@ -168,18 +168,53 @@ df <- merge(df, gini_final, by.x = "iso2", by.y = "iso2c", all.x = T)
 
 
 ### getting Individuals using the Internet (% of population)"   
-internet = WDI(indicator='IT.NET.USER.ZS',start=2019, end=2019)
-internet$country <- NULL
-internet$year <- NULL
-internet <- rename(internet, "Internet" = "IT.NET.USER.ZS")
-df <- merge(df, internet, by.x = "iso2", by.y = "iso2c", all.x = T)
+internet = WDI(indicator='IT.NET.USER.ZS',start=2014, end=2019)
+internet_wide <- internet %>%
+  spread(year, IT.NET.USER.ZS)
+internet_final <- subset(internet_wide, select = c("iso2c", "country", "2019"))
+internet_final <- rename(internet_final, "Internet" = "2019")
+internet_final$internet <-ifelse(is.na(internet_final$Internet), internet_wide$'2018', internet_final$Internet)
+internet_final$internet <-ifelse(is.na(internet_final$Internet), internet_wide$'2017', internet_final$Internet)
+internet_final$internet <-ifelse(is.na(internet_final$Internet), internet_wide$'2016', internet_final$Internet)
+internet_final$internet <-ifelse(is.na(internet_final$Internet), internet_wide$'2015', internet_final$Internet)
+internet_final$internet <-ifelse(is.na(internet_final$Internet), internet_wide$'2014', internet_final$Internet)
+
+df <- merge(df, internet_final, by.x = "iso2", by.y = "iso2c", all.x = T)
+
+### getting population census
+pop = WDI(indicator = "SP.POP.TOTL", start = 2014, end = 2019)
+pop_wide <- pop %>%
+  spread(year, SP.POP.TOTL)
+pop_final <- subset(pop_wide, select = c("iso2c", "country", "2019"))
+pop_final <- rename(pop_final, "population" = "2019")
+pop_final$population <-ifelse(is.na(pop_final$population), pop_wide$'2018', pop_final$population)
+pop_final$population <-ifelse(is.na(pop_final$population), pop_wide$'2017', pop_final$population)
+pop_final$population <-ifelse(is.na(pop_final$population), pop_wide$'2016', pop_final$population)
+pop_final$population <-ifelse(is.na(pop_final$population), pop_wide$'2015', pop_final$population)
+pop_final$population <-ifelse(is.na(pop_final$population), pop_wide$'2014', pop_final$population)
+pop_final$country <- NULL
+pop_final$year <- NULL
+
+df <- merge(df, pop_final, by.x = "iso2", by.y = "iso2c", all.x = T)
+
 
 ### getting Political Stability and Absence of Violence/Terrorism: Estimate"   
-polistable = WDI(indicator='PV.EST',start=2019, end=2019)
-polistable$country <- NULL
-polistable$year <- NULL
-polistable <- rename(polistable, "Stability" = "PV.EST")
-df <- merge(df, polistable, by.x = "iso2", by.y = "iso2c", all.x = T)
+polistable = WDI(indicator='PV.EST',start=2014, end=2019)
+polistable_wide <- polistable %>%
+  spread(year, PV.EST)
+polistable_final <- subset(polistable_wide, select = c("iso2c", "country", "2019"))
+polistable_final <- rename(polistable_final, "polistable" = "2019")
+polistable_final$polistable<-ifelse(is.na(polistable_final$polistable), polistable_wide$'2018', polistable_final$polistable)
+polistable_final$polistable<-ifelse(is.na(polistable_final$polistable), polistable_wide$'2017', polistable_final$polistable)
+polistable_final$polistable<-ifelse(is.na(polistable_final$polistable), polistable_wide$'2016', polistable_final$polistable)
+polistable_final$polistable<-ifelse(is.na(polistable_final$polistable), polistable_wide$'2015', polistable_final$polistable)
+polistable_final$polistable<-ifelse(is.na(polistable_final$polistable), polistable_wide$'2014', polistable_final$polistable)
+polistable_final$country <- NULL
+polistable_final$year <- NULL
+
+df <- merge(df, polistable_final, by.x = "iso2", by.y = "iso2c", all.x = T)
+
+nodelist<-merge(nodelist, polistable_final, by.x = "ID", by.y = "iso2c", all.x = T)
 
 ### getting outbound mobility ratio, Number of students from a given country studying abroad as a percentage of the total tertiary enrolment in that country. 
 outboundmob= WDI(indicator='UIS.OMR.56',start=2015, end=2020)
@@ -208,6 +243,8 @@ pressfree$EN_country<-NULL
 
 df <- merge(df, pressfree, by = "iso2", all.x = T)
 
+
+
 # Constructing nodelist and edgelist
 ## Node attributes
 nodelist <- distinct(data, user_loc, .keep_all = T)
@@ -215,14 +252,25 @@ nodelist$fr_loc <- NULL
 nodelist$scaled_sci <- NULL
 nodelist <- rename(nodelist, "ID" = "user_loc")
 nodelist <- merge(nodelist, df, by.x = "ID", by.y = "iso2", all.x = T)
+nodelist$internet <- nodelist$internet/100
+
+outdegree <- edgelist %>%
+  group_by(user_loc) %>%
+  summarize(sci = mean(scaled_sci))
+
+nodelist <- merge(nodelist, outdegree, by.x = "ID", by.y = "user_loc", all.x = T)
+
 write.csv(nodelist, "Data/Node attribute_full.csv", row.names = F)
 
 nodelist_short <- nodelist[!is.na(nodelist$region),]
-nodelist_short <- subset(nodelist_short, select = c("ID", "region"))
+str(nodelist)
 write.csv(nodelist_short, "Data/Node attribute_short.csv", row.names = F)
 
+nodelist_na <- na.omit(nodelist)
+write.csv(nodelist_na, "Data/Node attribute_nona.csv", row.names = F)
+
 ## Edgelist
-countrylist <- nodelist_short$ID
+countrylist <- nodelist_na$ID
 
 edgelist <- data
 write.csv(edgelist, "Data/Edgelist_full.csv", row.names = F)
@@ -238,9 +286,36 @@ summary(smaller_sci$scaled_sci)
 boxplot(smaller_sci$scaled_sci)
 smaller_sci <- rename(smaller_sci, "weight" = "scaled_sci")
 
-smaller_sci_net <- graph_from_data_frame(d = smaller_sci, directed = T)
+## Constructing network
+smaller_sci_net <- graph_from_data_frame(d = edgelist_short, vertices = nodelist_na, directed = T)
 smaller_sci_net <- simplify(smaller_sci_net, remove.multiple = F, remove.loops = T) 
-write.graph(sci_net, "Data/SCI Network_smaller.graphml", format = "graphml")
 
-## Adding attributes 
+V(smaller_sci_net)$sci
+E(smaller_sci_net)$weight
+summary(smaller_sci_net)
+
+
+## Linear network autocorrelation model
+library(sna)
+library(intergraph)
+sci_network <- asNetwork(smaller_sci_net)
+
+sci <- log(sci_network %v% "sci")
+GDP <- sci_network %v% "GDP"
+GINI <- sci_network %v% "GINI"
+hdi <- sci_network %v% "hdi_2019"
+hdi <- as.numeric(hdi)
+internet <- sci_network %v% "internet"
+mobility <- sci_network %v% "Mobility"
+ps <- sci_network %v% "polistable"
+polity <- sci_network %v% "polity_score"
+pop_log <- log(sci_network %v% "population")
+region <- sci_network %v% "region"
+press <- sci_network %v% "press"
+
+
+lnam.model <- lnam(y = sci, x = cbind(GDP, GINI, hdi, internet, mobility, ps, polity, pop_log, press), W1=sci_network)
+summary(lnam.model)
+plot.lnam(lnam.model)
+
 
