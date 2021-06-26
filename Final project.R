@@ -390,7 +390,7 @@ sic_rank_region <- community_df_sub %>%
 ggsave("Image/SCI global rank by communities", device = "png", dpi = 400, width = 15, height = 10)
 
 
-## Linear network autocorrelation model
+# Linear network autocorrelation model
 
 ## Constructing network without NAs
 countrylist_na <- nodelist_na$ID
