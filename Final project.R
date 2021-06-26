@@ -12,6 +12,10 @@ library(countrycode)
 library(WDI)
 library(jsonlite)
 library(stringr)
+library(RColorBrewer)
+library(sna)
+library(intergraph)
+
 
 # Loading data
 data <- read.table(file = 'Data/sci_country_country.tsv', sep = '\t', header = TRUE)
@@ -103,12 +107,12 @@ browseURL("Image/US_in_flow.html")
 
 # Merging the data
 ## loading in data
-hdi <- read.csv("HDI.csv")
-polity <- read.csv("p5v2018.csv")
+hdi <- read.csv("Data/HDI.csv")
+polity <- read.csv("Data/p5v2018.csv")
 nrow(hdi)
 nrow(polity)
 
-## prepping hdi
+## prepping HDI
 ### selecting the cols for country, 2018, and 2019 (most recent year)
 ### renaming for easier reference
 hdi <- hdi %>%
@@ -244,7 +248,6 @@ pressfree$EN_country<-NULL
 df <- merge(df, pressfree, by = "iso2", all.x = T)
 
 
-
 # Constructing nodelist and edgelist
 ## Node attributes
 nodelist <- distinct(data, user_loc, .keep_all = T)
@@ -266,38 +269,139 @@ nodelist_short <- nodelist[!is.na(nodelist$region),]
 str(nodelist)
 write.csv(nodelist_short, "Data/Node attribute_short.csv", row.names = F)
 
-nodelist_na <- na.omit(nodelist)
-write.csv(nodelist_na, "Data/Node attribute_nona.csv", row.names = F)
 
 ## Edgelist
-countrylist <- nodelist_na$ID
-
+countrylist <- nodelist$ID
 edgelist <- data
 write.csv(edgelist, "Data/Edgelist_full.csv", row.names = F)
 
 edgelist_short <- edgelist[edgelist$user_loc %in% countrylist, ]
 edgelist_short <- edgelist_short[edgelist_short$fr_loc %in% countrylist, ]
+edgelist_short <- rename(edgelist_short, "weight" = "scaled_sci")
 
-smaller_edgelist <- edgelist_short %>%
-  filter(between(scaled_sci, quantile(scaled_sci, 0.3), quantile(scaled_sci, 0.9)))
+large_edgelist <- edgelist_short %>%
+  filter(between(weight, quantile(weight, 0.3), quantile(weight, 0.9)))
+
 write.csv(smaller_edgelist, "Data/Edgelist_short.csv", row.names = F)
 
-summary(smaller_sci$scaled_sci)
-boxplot(smaller_sci$scaled_sci)
-smaller_sci <- rename(smaller_sci, "weight" = "scaled_sci")
 
-## Constructing network
-smaller_sci_net <- graph_from_data_frame(d = edgelist_short, vertices = nodelist_na, directed = T)
-smaller_sci_net <- simplify(smaller_sci_net, remove.multiple = F, remove.loops = T) 
 
-V(smaller_sci_net)$sci
-E(smaller_sci_net)$weight
-summary(smaller_sci_net)
+## Network descriptions
+large_sci_net <- graph_from_data_frame(d = large_edgelist, directed = T)
+large_sci_net <- simplify(large_sci_net, remove.multiple = F, remove.loops = T) 
+large_sci_net
+
+clp <- cluster_label_prop(as.undirected(large_sci_net), weights=E(large_sci_net)$score)
+cfg <- cluster_fast_greedy(as.undirected(large_sci_net))
+cle <- cluster_leading_eigen(as.undirected(large_sci_net))
+ci <- cluster_infomap(as.undirected(large_sci_net))
+cwt <- cluster_walktrap(as.undirected(large_sci_net))
+
+### Comparing the results of community detection is by modularity scores:
+mod <- sapply(list(clp=clp, cfg=cfg, cle=cle, ci=ci, cwt=cwt), modularity)
+sort(round(mod, 2))
+
+### Assigning membership
+V(large_sci_net)$community <- cfg$membership
+community <- V(large_sci_net)$community
+
+community_df <- as.data.frame(cbind(countrylist, community))
+region_df <- subset(nodelist, select = c("ID", "region", "country"))
+community_df <- merge(community_df, region_df, by.x = "countrylist", by.y = "ID")
+community_df <- na.omit(community_df)
+sci_df <- subset(nodelist, select = c("ID", "sci"))
+community_df <- merge(community_df, sci_df, by.x = "countrylist", by.y = "ID", all.x = T)
+
+write.csv(community_df, "Data/Community.csv", row.names = F)
+
+### Visualizing
+community_df %>%
+  ggplot(aes(x=community, fill=region)) + 
+  geom_bar() +
+  scale_fill_brewer(palette = "Pastel1") +
+  theme_bw() +
+  labs(x = "Community", y = "Count", fill = "Region") +
+  theme(text=element_text(family="Arial", face="bold"),
+        axis.text = element_text(size = 13),
+        axis.title = element_text(size = 15),
+        legend.title = element_blank(),
+        legend.text = element_text(size = 12))
+ggsave("Image/Community", device = "png", dpi = 600)
+
+sic_rank <- community_df %>%
+  arrange(desc(sci)) %>%
+  slice(1:20) %>%
+  ggplot(aes(x = reorder(country, sci), y = sci, fill = region)) +
+  geom_bar(stat="identity") +
+  scale_fill_brewer(palette = "Pastel1") +
+  labs(x = "Countries", y = "SCI", fill = "Regions") +
+  theme_bw() +
+  theme(text=element_text(family="Arial", face="bold"),
+       axis.text = element_text(size = 12),
+       axis.title = element_text(size = 15),
+       legend.text = element_text(size = 12),
+       legend.position = "bottom") +
+  coord_flip()
+
+ggsave("Image/SCI global rank top 20", device = "png", dpi = 600, width = 10)
+
+global_rank <- community_df %>%
+  ggplot(aes(x = reorder(country, sci), y = sci, fill = region)) +
+  geom_bar(stat="identity") +
+  scale_fill_brewer(palette = "Pastel1") +
+  labs(x = "Countries", y = "SCI", fill = "Regions") +
+  theme_bw() +
+  theme(text=element_text(family="Arial", face="bold"),
+        axis.text.y = element_text(size = 12),
+        axis.title.y = element_text(size = 15),
+        axis.text.x = element_blank(),
+        axis.title.x = element_blank(),
+        axis.ticks = element_blank(),
+        legend.title = element_text(size = 15),
+        legend.text = element_text(size = 12),
+        legend.position = c(0.25, 0.7),
+        panel.border = element_blank(),
+        panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        axis.line.y = element_line(colour = "black"))
+
+ggsave("Image/Gloal rank", device = "png", dpi = 600)
+
+
+community_df_sub <- community_df%>%
+  group_by(community) %>%
+  slice_max(order_by = sci, n =20)
+
+sic_rank_region <- community_df_sub %>%
+  ggplot(aes(y = reorder(country,sci), x = sci, fill = region)) +
+  geom_bar(stat="identity", position = "dodge") +
+  scale_fill_brewer(palette = "Pastel1") +
+  labs(x = "SCI", y = "Countries", fill = "Regions") +
+  theme_bw() +
+  theme(text=element_text(family="Arial", face="bold"),
+        axis.text = element_text(size = 12),
+        axis.title = element_text(size = 15),
+        strip.text = element_text(size = 15), 
+        legend.text = element_text(size = 12),
+        legend.position = "bottom") +
+  facet_wrap(~community, scales = "free_y",
+             nrow = 2)
+
+ggsave("Image/SCI global rank by communities", device = "png", dpi = 400, width = 15, height = 10)
 
 
 ## Linear network autocorrelation model
-library(sna)
-library(intergraph)
+
+## Constructing network without NAs
+countrylist_na <- nodelist_na$ID
+edgelist_na <- edgelist[edgelist$user_loc %in% countrylist_na, ]
+edgelist_na <- edgelist_na [edgelist_na $fr_loc %in% countrylist_na, ]
+edgelist_na <- rename(edgelist_na, "source" = "user_loc", "target" = "fr_loc", "weight" = "scaled_sci")
+nodelist_na <- na.omit(nodelist)
+write.csv(nodelist_na, "Data/Node attribute_nona.csv", row.names = F)
+smaller_sci_net <- graph_from_data_frame(d = edgelist_na, vertices = nodelist_na, directed = T)
+smaller_sci_net <- simplify(smaller_sci_net, remove.multiple = F, remove.loops = T) 
+
 sci_network <- asNetwork(smaller_sci_net)
 
 sci <- log(sci_network %v% "sci")
@@ -314,8 +418,38 @@ region <- sci_network %v% "region"
 press <- sci_network %v% "press"
 
 
-lnam.model <- lnam(y = sci, x = cbind(GDP, GINI, hdi, internet, mobility, ps, polity, pop_log, press), W1=sci_network)
+lnam.model <- lnam(y = sci, x = cbind(hdi, GINI, internet, mobility, ps, polity, press), W1=sci_network)
 summary(lnam.model)
-plot.lnam(lnam.model)
+
+lm.model <- lm(sci~hdi+GINI+internet+mobility+ps+polity+press, data=nodelist_na)
+summary(lm.model)
+AIC(lm.model)
 
 
+### Visualizing
+result <- read.csv("Data/Result.csv")
+result$Variables <- factor(result$Variables, levels = c("Rho1.1", "Press control", "Polity score", "Political stability", "Outbound mobility", "Internet", "GINI", "HDI"))
+result$P.value <- factor(ifelse(result$P.value <= 0.05, "Significant", "Not significant"))
+
+result_plot <- result%>%
+  ggplot(aes(x = Variables, y = Estimate, color = P.value)) +
+  geom_line() +
+  geom_point(size = 5) +
+  geom_errorbar(aes(ymin=Estimate-SE, ymax=Estimate+SE), width=.2,
+                position=position_dodge(0.05)) +
+  labs(color = "Significant level") +
+  theme_bw() +
+  theme(axis.title = element_text(size = 13),
+        axis.text.x = element_text(size =12),
+        axis.text.y = element_text(size =12),
+        legend.position = "bottom", 
+        legend.title = element_text(size = 12),
+        legend.text = element_text(size = 12),
+        legend.background = element_rect(fill = "transparent", color = NA),
+        rect = element_rect(fill = "transparent"),
+        plot.background = element_rect(fill = "transparent", color = NA),
+        legend.key = element_rect(colour = "transparent", fill = "white")) +
+  labs(shape = "Significant level") +
+  coord_flip()
+result_plot
+ggsave("Image/LNAM result", device = "png", dpi = 600, bg = "transparent")
